@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-main",
-      "description": "A group of diverse volunteers working together in a community project.",
-      "imageUrl": "https://images.unsplash.com/photo-1652257975351-090e0b9cf8c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb21tdW5pdHklMjB3b3JrfGVufDB8fHx8MTc2MDg1NDg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "community work"
+      "description": "The Enactus Hansraj team sitting on steps for a group photo.",
+      "imageUrl": "https://storage.googleapis.com/aifirebase-1-1-assets/images/doc-snippets/1762788506249-enactus-team-photo.png",
+      "imageHint": "team photo"
     },
     {
       "id": "project-ahsaas",
