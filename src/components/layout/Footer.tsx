@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Instagram, Linkedin } from 'lucide-react';
 
 export function Footer() {
   const socialLinks = [
-    { icon: Twitter, href: '#', name: 'Twitter' },
     { icon: Instagram, href: '#', name: 'Instagram' },
     { icon: Linkedin, href: '#', name: 'LinkedIn' },
   ];
