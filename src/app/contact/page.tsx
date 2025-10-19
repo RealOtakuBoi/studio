@@ -1,0 +1,21 @@
+import { ContactForm } from "@/components/ContactForm";
+
+export default function ContactPage() {
+  return (
+    <div className="bg-background">
+      <div className="container mx-auto flex min-h-[80vh] flex-col items-center justify-center px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl text-center">
+          <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl">
+            Get In Touch
+          </h1>
+          <p className="mt-4 text-lg text-muted-foreground">
+            We'd love to hear from you! Whether you're a student, a business leader, or just passionate about social change, let's connect.
+          </p>
+        </div>
+        <div className="mt-12 w-full flex justify-center">
+          <ContactForm />
+        </div>
+      </div>
+    </div>
+  );
+}

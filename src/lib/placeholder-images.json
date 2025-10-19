@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-main",
+      "description": "A group of diverse volunteers working together in a community project.",
+      "imageUrl": "https://images.unsplash.com/photo-1652257975351-090e0b9cf8c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb21tdW5pdHklMjB3b3JrfGVufDB8fHx8MTc2MDg1NDg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community work"
+    },
+    {
+      "id": "project-ahsaas",
+      "description": "Hands holding a young plant, symbolizing growth and care.",
+      "imageUrl": "https://images.unsplash.com/photo-1615359740435-2b4f2b484c9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYW5kcyUyMHBsYW50fGVufDB8fHx8MTc2MDg1NDg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hands plant"
+    },
+    {
+      "id": "project-mehr",
+      "description": "Artisan crafts being displayed at a local market.",
+      "imageUrl": "https://images.unsplash.com/photo-1699823882464-6fcd5d30ce4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcnRpc2FuJTIwY3JhZnRzfGVufDB8fHx8MTc2MDg1NDg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "artisan crafts"
+    },
+    {
+      "id": "project-nirmal",
+      "description": "Clean water flowing from a tap into cupped hands.",
+      "imageUrl": "https://images.unsplash.com/photo-1559079236-2e64f89c7764?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbGVhbiUyMHdhdGVyfGVufDB8fHx8MTc2MDgzNDgxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean water"
+    },
+    {
+      "id": "about-us-team",
+      "description": "A diverse group of students collaborating and smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1758270705317-3ef6142d306f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHVkZW50JTIwdGVhbXxlbnwwfHx8fDE3NjA4NTQ4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student team"
+    },
+    {
+      "id": "team-1",
+      "description": "Profile picture of Rohan Sharma",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjA4MzQ4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "team-2",
+      "description": "Profile picture of Priya Verma",
+      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MDgzNjQ2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team-3",
+      "description": "Profile picture of Sameer Khan",
+      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYwODM0ODE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "team-4",
+      "description": "Profile picture of Anjali Mehta",
+      "imageUrl": "https://images.unsplash.com/photo-1610655507808-a59293f4e332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MDgzNjQ2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team-5",
+      "description": "Profile picture of Vikram Singh",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjA4MzQ4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "team-6",
+      "description": "Profile picture of Sneha Reddy",
+      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MDgzNjQ2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    }
+  ]
 }
