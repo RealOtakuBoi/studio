@@ -1,46 +1,51 @@
 export const projects = [
+{
+  slug: 'ahsaas',
+  name: 'Project Ahsaas',
+  tagline: 'Empowering individuals with disabilities through education, skills, and inclusion.',
+  imageId: 'project-ahsaas',
+  mission: 'Project Ahsaas is Enactus Hansraj’s social innovation initiative focused on empowering individuals with disabilities and mental health challenges through education, skill development, and sustainable employment opportunities. It aims to create an inclusive society by transforming disability into ability and barriers into bridges.',
+  activities: [
+    'Operating the flagship vertical "Diksha" that provides accessible and inclusive government exam preparation with personalized mentorship and adaptive learning resources.',
+    'Building livelihood pathways through product and training verticals, offering end-to-end skill development and market linkage.',
+    'Collaborating with 12+ NGOs and corporate organizations to enhance training, placement, and inclusion opportunities.',
+    'Partnering with Mitti Café to establish Delhi’s first café run by specially abled individuals at Hansraj College.',
+    'Providing continuous workshops and programs to improve employability, confidence, and community integration for individuals with disabilities.'
+  ],
+  impact: 'Project Ahsaas has delivered over 5,000 hours of training, empowered 370+ individuals, and positively impacted more than 7,700 lives. Trained candidates have secured employment at prestigious locations such as Rashtrapati Bhawan and the Supreme Court, marking a major stride toward inclusive growth and sustainable empowerment.'
+}
+,
   {
-    slug: 'ahsaas',
-    name: 'Project Ahsaas',
-    tagline: 'Empowering communities through education and skill development.',
-    imageId: 'project-ahsaas',
-    mission: 'Project Ahsaas is dedicated to bridging educational gaps in underserved communities. We believe that quality education is the key to unlocking human potential and fostering social and economic mobility.',
-    activities: [
-      'Establishing community learning centers with access to digital resources.',
-      'Conducting skill development workshops for youth and adults.',
-      'Providing mentorship programs to guide students in their academic and career paths.',
-      'Organizing literacy campaigns and distributing educational materials.'
-    ],
-    impact: 'To date, Project Ahsaas has impacted over 5,000 individuals across 10 communities. Our programs have led to a 40% increase in literacy rates and have equipped 500+ young adults with vocational skills, leading to better employment opportunities.'
-  },
+  slug: 'mehr',
+  name: 'Project Mehr',
+  tagline: 'Transforming temple waste into livelihoods and sustainability.',
+  imageId: 'project-mehr',
+  mission: 'Project Mehr is an eco-social initiative by Enactus Hansraj College that transforms India’s temple floral waste into potpourri, compost, and natural dyes — reducing water pollution while fostering dignified employment for the transgender community. The project aims to blend environmental conservation with social inclusion, addressing waste management challenges and promoting equality.',
+  activities: [
+    'Collecting and recycling sacred floral offerings from temples to create eco-friendly products like potpourri, compost, and natural dyes.',
+    'Training transgender individuals in sustainable production techniques, entrepreneurship, and marketing to promote long-term employability.',
+    'Collaborating with organizations such as Mitr Trust, BioQ, and Ferns N Petals to expand market linkages and ensure ethical sourcing and sales.',
+    'Hosting awareness and sustainability drives to encourage eco-friendly practices and social acceptance of marginalized communities.'
+  ],
+  impact: 'Project Mehr has created a dual impact by reducing floral waste pollution and providing dignified livelihoods to members of the transgender community. Through its inclusive model and strategic partnerships, the project continues to promote economic independence, environmental responsibility, and social equality.'
+}
+,
   {
-    slug: 'mehr',
-    name: 'Project Mehr',
-    tagline: 'Fostering financial independence for women artisans.',
-    imageId: 'project-mehr',
-    mission: 'Project Mehr aims to empower women artisans by providing them with a sustainable livelihood. We connect their traditional craftsmanship with modern markets, ensuring fair wages and preserving cultural heritage.',
-    activities: [
-      'Training artisans in contemporary design and quality control.',
-      'Building a robust supply chain and e-commerce platform.',
-      'Facilitating financial literacy and entrepreneurship workshops.',
-      'Showcasing artisan products at national and international forums.'
-    ],
-    impact: 'We work with a network of over 200 women artisans who have seen an average income increase of 150%. Project Mehr has helped revive several traditional art forms and has created a self-sustaining ecosystem of empowerment.'
-  },
-  {
-    slug: 'nirmal',
-    name: 'Project Nirmal',
-    tagline: 'Promoting sustainable waste management and clean environments.',
-    imageId: 'project-nirmal',
-    mission: 'Project Nirmal tackles the pressing issue of urban waste by implementing community-centric waste management solutions. Our goal is to create cleaner, healthier living spaces and promote a circular economy.',
-    activities: [
-      'Setting up decentralized waste segregation and recycling units.',
-      'Running awareness campaigns on the importance of the 3Rs (Reduce, Reuse, Recycle).',
-      'Converting organic waste into compost for community gardens.',
-      'Collaborating with local municipalities to improve waste collection systems.'
-    ],
-    impact: 'Project Nirmal has successfully managed over 50 tons of waste, preventing it from ending up in landfills. Our initiatives have created green jobs and fostered a sense of environmental responsibility in participating communities.'
-  },
+  slug: 'nirmal',
+  name: 'Project Nirmal',
+  tagline: 'Turning waste into worth through innovation and inclusion.',
+  imageId: 'project-nirmal',
+  mission: 'Project Nirmal by Enactus Hansraj is a social and environmental initiative addressing India’s challenges of wastewater pollution, organic waste mismanagement, and limited livelihood opportunities. By converting locally collected organic waste into bio-enzyme solutions, the project cleans wastewater, reduces chemical pollution, rejuvenates soil, and empowers marginalized communities — all within a circular, zero-waste model.',
+  activities: [
+    'Collecting organic waste and transforming it into bio-enzyme solutions for sustainable wastewater treatment and soil rejuvenation.',
+    'Empowering women survivors of domestic violence and human trafficking through employment and skill development in bioenzyme production.',
+    'Supporting small-scale farmers with bio-organic fertilizers and soil conditioners that enhance productivity and promote organic farming.',
+    'Operating across three verticals: Sanjeevni (industrial wastewater treatment), Niwas (eco-friendly household cleaners), and Bhoomi (bio-organic agricultural solutions).',
+    'Collaborating with local communities and institutions to promote sustainable sanitation and environmental conservation.'
+  ],
+  impact: 'Since inception, Project Nirmal has treated millions of litres of wastewater, converted thousands of kilograms of waste into bioenzymes, empowered hundreds of women and farmers, and positively impacted thousands of lives. The project continues to merge sustainability with social empowerment, setting a benchmark for circular environmental innovation in India.'
+}
+,
 ];
 
 export const teamMembers = [
