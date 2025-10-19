@@ -4,8 +4,8 @@ import { Instagram, Linkedin } from 'lucide-react';
 
 export function Footer() {
   const socialLinks = [
-    { icon: Instagram, href: '#', name: 'Instagram' },
-    { icon: Linkedin, href: '#', name: 'LinkedIn' },
+    { icon: Instagram, href: 'https://www.instagram.com/enactus.hansraj/?hl=en', name: 'Instagram' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/enactus-hansraj?originalSubdomain=in', name: 'LinkedIn' },
   ];
 
   return (
