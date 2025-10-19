@@ -29,6 +29,7 @@ export function Footer() {
                     <li><Link href="/about" className="text-sm text-muted-foreground hover:text-primary">About Us</Link></li>
                     <li><Link href="/#projects" className="text-sm text-muted-foreground hover:text-primary">Projects</Link></li>
                     <li><Link href="/team" className="text-sm text-muted-foreground hover:text-primary">Team</Link></li>
+                     <li><Link href="/impact" className="text-sm text-muted-foreground hover:text-primary">Impact</Link></li>
                     <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">Contact</Link></li>
                  </ul>
              </div>
@@ -36,7 +37,7 @@ export function Footer() {
                 <h3 className="font-headline font-semibold">Connect</h3>
                  <ul className="mt-4 space-y-2">
                     <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">Join Us</Link></li>
-                    <li><Link href="/success-stories" className="text-sm text-muted-foreground hover:text-primary">Success Stories</Link></li>
+                    <li><Link href="/newsletter" className="text-sm text-muted-foreground hover:text-primary">Newsletter</Link></li>
                  </ul>
              </div>
           </div>

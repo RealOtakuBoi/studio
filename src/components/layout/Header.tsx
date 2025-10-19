@@ -20,7 +20,8 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/team', label: 'Team' },
-  { href: '/success-stories', label: 'Success Stories' },
+  { href: '/impact', label: 'Impact' },
+  { href: '/newsletter', label: 'Newsletter' },
   { href: '/contact', label: 'Contact' },
 ];
 
