@@ -3,25 +3,25 @@
     {
       "id": "hero-main",
       "description": "The Enactus Hansraj team sitting on steps for a group photo.",
-      "imageUrl": "https://storage.googleapis.com/aifirebase-1-1-assets/images/doc-snippets/1762788506249-enactus-team-photo.png",
+      "imageUrl": "https://images.unsplash.com/photo-1760864843411-3d30bd4e6adb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074",
       "imageHint": "team photo"
     },
     {
       "id": "project-ahsaas",
       "description": "Hands holding a young plant, symbolizing growth and care.",
-      "imageUrl": "https://images.unsplash.com/photo-1615359740435-2b4f2b484c9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYW5kcyUyMHBsYW50fGVufDB8fHx8MTc2MDg1NDg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1760866791289-ee625dd8005f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880",
       "imageHint": "hands plant"
     },
     {
       "id": "project-mehr",
       "description": "Artisan crafts being displayed at a local market.",
-      "imageUrl": "https://images.unsplash.com/photo-1699823882464-6fcd5d30ce4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcnRpc2FuJTIwY3JhZnRzfGVufDB8fHx8MTc2MDg1NDg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1760866791323-9186b7e6654e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880",
       "imageHint": "artisan crafts"
     },
     {
       "id": "project-nirmal",
       "description": "Clean water flowing from a tap into cupped hands.",
-      "imageUrl": "https://images.unsplash.com/photo-1559079236-2e64f89c7764?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbGVhbiUyMHdhdGVyfGVufDB8fHx8MTc2MDgzNDgxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1760866791283-1c12c76a740f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880",
       "imageHint": "clean water"
     },
     {
@@ -69,7 +69,7 @@
     {
       "id": "impact-page",
       "description": "The Enactus Hansraj team posing for a group photo on steps.",
-      "imageUrl": "https://storage.googleapis.com/aifirebase-1-1-assets/images/doc-snippets/1762788506249-enactus-team-photo.png",
+      "imageUrl": "https://images.unsplash.com/photo-1760864843411-3d30bd4e6adb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074",
       "imageHint": "team photo"
     }
   ]
