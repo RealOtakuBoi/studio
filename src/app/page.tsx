@@ -32,16 +32,16 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center">
           <h1 className="font-headline text-4xl font-bold tracking-tight md:text-6xl">
-            Enactus Hansraj Hub
+            Enactus Hansraj
           </h1>
           <p className="mt-4 max-w-2xl text-lg md:text-xl">
             Entrepreneurial action for a better world. Discover our projects, meet our team, and join our mission.
           </p>
           <div className="mt-8 flex gap-4">
-            <Button asChild size="lg">
+            <Button asChild size="lg" variant="accent">
               <Link href="/about">Learn More</Link>
             </Button>
-            <Button asChild size="lg" variant="secondary">
+            <Button asChild size="lg" variant="accent">
               <Link href="/contact">Get Involved</Link>
             </Button>
           </div>
@@ -70,7 +70,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="bg-muted py-16 md:py-24">
+      <section id="projects" className="bg-muted py-16 md-py-24">
         <div className="container mx-auto">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold md:text-4xl">

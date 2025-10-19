@@ -6,7 +6,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Enactus Hansraj Hub',
+  title: 'Enactus Hansraj',
   description: 'A hub for Enactus Hansraj projects, team, and impact.',
 };
 
