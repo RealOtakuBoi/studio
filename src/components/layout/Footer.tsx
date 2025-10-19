@@ -14,7 +14,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="flex flex-col items-center md:items-start">
             <Link href="/" className="flex items-center gap-2">
-               <Image src="https://images.unsplash.com/photo-1760866715927-8625fedf4fc4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880" alt="Enactus Hansraj Logo" width={140} height={40} />
+               <Image src="/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} />
             </Link>
             <p className="mt-4 text-center text-sm text-muted-foreground md:text-left">
               Entrepreneurial action for a better world.
@@ -29,6 +29,7 @@ export function Footer() {
                     <li><Link href="/#projects" className="text-sm text-muted-foreground hover:text-primary">Projects</Link></li>
                     <li><Link href="/team" className="text-sm text-muted-foreground hover:text-primary">Team</Link></li>
                      <li><Link href="/impact" className="text-sm text-muted-foreground hover:text-primary">Impact</Link></li>
+                     <li><Link href="/blog" className="text-sm text-muted-foreground hover:text-primary">Blog</Link></li>
                     <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">Contact</Link></li>
                  </ul>
              </div>

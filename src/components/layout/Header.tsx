@@ -22,6 +22,7 @@ const navLinks = [
   { href: '/about', label: 'About' },
   { href: '/team', label: 'Team' },
   { href: '/impact', label: 'Impact' },
+  { href: '/blog', label: 'Blog' },
   { href: '/newsletter', label: 'Newsletter' },
   { href: '/contact', label: 'Contact' },
 ];
@@ -101,7 +102,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center gap-2">
-          <Image src="https://images.unsplash.com/photo-1760866715927-8625fedf4fc4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880" alt="Enactus Hansraj Logo" width={140} height={40} className="h-10 w-auto"/>
+          <Image src="/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} className="h-10 w-auto"/>
         </Link>
         
         {/* Desktop Navigation */}
@@ -124,7 +125,7 @@ export function Header() {
             <SheetContent side="left">
                <div className="flex items-center justify-between px-2">
                 <Link href="/" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2">
-                   <Image src="https://storage.googleapis.com/aifirebase-1-1-assets/images/doc-snippets/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} />
+                   <Image src="/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} />
                 </Link>
                 <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)}>
                     <X className="h-6 w-6"/>
