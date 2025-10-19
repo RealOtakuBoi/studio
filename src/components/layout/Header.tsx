@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Handshake, Menu, ChevronDown, X } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
@@ -28,8 +28,15 @@ const navLinks = [
 export function Header() {
   const pathname = usePathname();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
 
   const NavLink = ({ href, label, className }: { href: string; label: string; className?: string }) => {
+    if (!isClient) return null;
     const isActive = pathname === href;
     return (
       <Link
@@ -47,6 +54,7 @@ export function Header() {
   };
   
   const MobileNavLink = ({ href, label }: { href: string; label: string }) => {
+    if (!isClient) return null;
     const isActive = pathname === href;
     return (
       <Link
@@ -62,7 +70,9 @@ export function Header() {
     );
   };
 
-  const ProjectDropdown = ({ isMobile = false }) => (
+  const ProjectDropdown = ({ isMobile = false }) => {
+    if (!isClient) return null;
+    return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
@@ -85,7 +95,7 @@ export function Header() {
         ))}
       </DropdownMenuContent>
     </DropdownMenu>
-  );
+  )};
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
