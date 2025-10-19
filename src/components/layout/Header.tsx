@@ -36,7 +36,7 @@ export function Header() {
         href={href}
         onClick={() => setMobileMenuOpen(false)}
         className={cn(
-          'text-sm font-medium transition-colors hover:text-primary/80',
+          'rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent/10',
           isActive ? 'text-primary' : 'text-muted-foreground',
           className
         )}
@@ -68,9 +68,10 @@ export function Header() {
         <Button
           variant="ghost"
           className={cn(
-            'text-sm font-medium transition-colors hover:text-primary/80 data-[state=open]:bg-accent/50',
+            'text-sm font-medium transition-colors hover:bg-accent/10 data-[state=open]:bg-accent/50',
             pathname.startsWith('/projects') ? 'text-primary' : 'text-muted-foreground',
-            isMobile && 'w-full justify-start rounded-md px-3 py-2 text-base font-medium text-foreground hover:bg-accent/50'
+            isMobile && 'w-full justify-start rounded-md px-3 py-2 text-base font-medium text-foreground hover:bg-accent/50',
+            !isMobile && 'px-3 py-2'
           )}
         >
           Projects <ChevronDown className="ml-1 h-4 w-4" />
@@ -95,7 +96,7 @@ export function Header() {
         </Link>
         
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-6 md:flex">
+        <nav className="hidden items-center gap-1 md:flex">
           {navLinks.map((link) => (
             <NavLink key={link.href} href={link.href} label={link.label} />
           ))}
