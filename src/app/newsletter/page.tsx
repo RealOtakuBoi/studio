@@ -19,3 +19,6 @@ export default function NewsletterPage() {
     </div>
   );
 }
+
+
+// Newsletter will be linked to Convertkit URl
