@@ -1,6 +1,6 @@
 ---
 title: 'Welcome to Our New Blog'
-date: '2024-07-31'
+date: '2025-10-18'
 author: 'The Enactus Team'
 ---
 
