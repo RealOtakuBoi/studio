@@ -31,7 +31,7 @@ const impactStats = [
 ];
 
 export default function ImpactPage() {
-    const impactImage = PlaceHolderImages.find((img) => img.id === 'hero-main');
+    const impactImage = PlaceHolderImages.find((img) => img.id === 'impact-page');
 
   return (
     <div className="bg-background">
