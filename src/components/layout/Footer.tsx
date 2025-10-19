@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Handshake, Twitter, Instagram, Linkedin } from 'lucide-react';
+import Image from 'next/image';
+import { Twitter, Instagram, Linkedin } from 'lucide-react';
 
 export function Footer() {
   const socialLinks = [
@@ -14,8 +15,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="flex flex-col items-center md:items-start">
             <Link href="/" className="flex items-center gap-2">
-              <Handshake className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold font-headline">Enactus Hansraj</span>
+               <Image src="https://storage.googleapis.com/aifirebase-1-1-assets/images/doc-snippets/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} />
             </Link>
             <p className="mt-4 text-center text-sm text-muted-foreground md:text-left">
               Entrepreneurial action for a better world.

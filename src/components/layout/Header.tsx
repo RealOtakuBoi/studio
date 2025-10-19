@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import { Handshake, Menu, ChevronDown, X } from 'lucide-react';
+import { Menu, ChevronDown, X } from 'lucide-react';
+import Image from 'next/image';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -33,7 +34,6 @@ export function Header() {
   useEffect(() => {
     setIsClient(true);
   }, []);
-
 
   const NavLink = ({ href, label, className }: { href: string; label: string; className?: string }) => {
     if (!isClient) return null;
@@ -101,8 +101,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center gap-2">
-          <Handshake className="h-6 w-6 text-primary" />
-          <span className="hidden font-bold sm:inline-block font-headline">Enactus Hansraj</span>
+          <Image src="https://storage.googleapis.com/aifirebase-1-1-assets/images/doc-snippets/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} />
         </Link>
         
         {/* Desktop Navigation */}
@@ -125,8 +124,7 @@ export function Header() {
             <SheetContent side="left">
                <div className="flex items-center justify-between px-2">
                 <Link href="/" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2">
-                  <Handshake className="h-6 w-6 text-primary" />
-                  <span className="font-bold font-headline">Enactus Hansraj</span>
+                   <Image src="https://storage.googleapis.com/aifirebase-1-1-assets/images/doc-snippets/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} />
                 </Link>
                 <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)}>
                     <X className="h-6 w-6"/>
