@@ -44,16 +44,15 @@ export const projects = [
 ];
 
 export const teamMembers = [
-  { name: 'Rohan Sharma', role: 'President', imageId: 'team-1' },
-  { name: 'Priya Verma', role: 'Vice President', imageId: 'team-2' },
-  { name: 'Sameer Khan', role: 'Project Director (Ahsaas)', imageId: 'team-3' },
-  { name: 'Anjali Mehta', role: 'Project Director (Mehr)', imageId: 'team-4' },
-  { name: 'Vikram Singh', role: 'Marketing Head', imageId: 'team-5' },
-  { name: 'Sneha Reddy', role: 'Finance Head', imageId: 'team-6' },
+  { name: 'KKaatyanShive Bajaj Singh', role: 'President', imageId: 'team-1' },
+  { name: 'Priyam', role: 'Chief Director of Research', imageId: 'team-2' },
+  { name: 'Prachi Khola', role: 'Chief Director of Projects', imageId: 'team-3' },
+  { name: 'Ksheerja Arora', role: 'Chief Director of Projects', imageId: 'team-4' },
+  { name: 'Manya Singhal', role: 'Chief Director of Outreach', imageId: 'team-5' },
 ];
 
 export const aboutContent = {
-  history: "Founded in 2008, Enactus Hansraj is a chapter of Enactus, an international non-profit organization that brings together student, academic, and business leaders who are committed to using the power of entrepreneurial action to improve the quality of life and standard of living for people in need.",
+  history: "Founded in 2012, Enactus Hansraj is a chapter of Enactus, an international non-profit organization that brings together student, academic, and business leaders who are committed to using the power of entrepreneurial action to improve the quality of life and standard of living for people in need.",
   mission: "Our mission is to engage the next generation of entrepreneurial leaders to create a better, more sustainable world. We are dedicated to creating economic opportunity for others by applying business concepts to develop community outreach projects, transform lives, and shape a better world.",
   values: [
     { title: "Integrity", description: "We operate with the highest ethical standards in all our actions." },
