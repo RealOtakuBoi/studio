@@ -125,7 +125,6 @@ export function Header() {
             <SheetContent side="left">
                <div className="flex items-center justify-between px-2">
                 <Link href="/" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2">
-                   <Image src="/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} />
                 </Link>
                 <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)}>
                     <X className="h-6 w-6"/>
