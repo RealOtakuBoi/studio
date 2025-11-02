@@ -1,7 +1,7 @@
 ---
 title: "Our 'Why': The Purpose, Philosophy, and Values of Enactus Hansraj"
-date: '2025-10-25'
-author: 'The Enactus Team'
+date: '2025-11-02'
+author: 'Saanvi Upadhyay'
 ---
 
 Have you ever passed a group of students in a tier 1 college, discussing something frantically, almost restlessly and paused to ask them, what is the matter? The answer always comes revolving around the same subject, let it be a huge academic project that will gain extra credits, career goals or resume pointers. Here, in Hansraj College it is the same, in every group; Except for the esteemed members of an organization called Enactus.
@@ -71,5 +71,6 @@ As we look toward the future, our 'Why' only deepens. Our vision is clear: We ar
 The 'Why' of Enactus Hansraj College isn't just a philosophy—it is a living, breathing commitment. We have proven, project after project, that when clear purpose meets relentless action and an empathetic spirit, extraordinary things become possible.
 
 We invite you to join us in this movement. Whether you are a student ready to dedicate your time, a community partner seeking collaborative solutions, or a supporter who believes in the boundless power of youth-driven purpose—our question to you is personal.
+
 
 We have made our choice to change the world. When will you make yours?
