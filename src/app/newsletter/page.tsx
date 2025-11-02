@@ -1,4 +1,5 @@
-import { NewsletterForm } from "@/components/NewsletterForm";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function NewsletterPage() {
   return (
@@ -9,16 +10,17 @@ export default function NewsletterPage() {
                 Subscribe to our Newsletter
             </h1>
             <p className="mt-4 text-lg text-muted-foreground">
-                Stay up to date with our latest projects, events, and success stories.
+                Stay up to date with our latest projects, events, and success stories by joining our mailing list.
             </p>
             </div>
             <div className="mt-12 w-full flex justify-center">
-              <NewsletterForm />
+              <Button asChild size="lg" variant="accent">
+                <Link href="https://enactimes.kit.com/6648f55af3" target="_blank" rel="noopener noreferrer">
+                  Subscribe Now
+                </Link>
+              </Button>
             </div>
         </div>
     </div>
   );
 }
-
-
-// Newsletter will be linked to Convertkit URl
