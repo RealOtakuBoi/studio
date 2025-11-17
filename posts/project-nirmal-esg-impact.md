@@ -1,7 +1,7 @@
 ---
-title 'Project Nirmal An ESG Lens on Cleaning Water and Empowering Lives'
-date '2025-11-15'
-author 'Yuvraj Yadav'
+title: 'Project Nirmal An ESG Lens on Cleaning Water and Empowering Lives'
+date:  '2025-11-15'
+author: 'Yuvraj Yadav'
 ---
 
 About 71% of the Earth's surface is covered by water oceans, lakes, rivers and even ice. Yet, despite this abundance, water pollution has become one of the most pressing environmental challenges globally. Over 171 trillion litres of waterways are released directly into the environment every year. In India, only 30% of the 72,000 million litres of sewage generated daily is treated, making untreated sewage the largest source of water pollution in the country.
