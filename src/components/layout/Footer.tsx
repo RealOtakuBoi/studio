@@ -30,6 +30,7 @@ export function Footer() {
                     <li><Link href="/team" className="text-sm text-muted-foreground hover:text-primary">Team</Link></li>
                      <li><Link href="/impact" className="text-sm text-muted-foreground hover:text-primary">Impact</Link></li>
                      <li><Link href="/blog" className="text-sm text-muted-foreground hover:text-primary">Blog</Link></li>
+                     <li><Link href="/shop" className="text-sm text-muted-foreground hover:text-primary">Shop</Link></li>
                     <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">Contact</Link></li>
                  </ul>
              </div>

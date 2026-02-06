@@ -23,6 +23,7 @@ const navLinks = [
   { href: '/team', label: 'Team' },
   { href: '/impact', label: 'Impact' },
   { href: '/blog', label: 'Blog' },
+  { href: '/shop', label: 'Shop'},
   { href: '/contact', label: 'Contact' },
 ];
 

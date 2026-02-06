@@ -3,7 +3,7 @@
     {
       "id": "hero-main",
       "description": "The Enactus Hansraj team sitting on steps for a group photo.",
-      "imageUrl": "https://images.unsplash.com/photo-1760864843411-3d30bd4e6adb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074",
+      "imageUrl": "https://storage.googleapis.com/devo-st-studio-8a3c-assets/enactus-team-photo.jpg",
       "imageHint": "team photo"
     },
     {
@@ -69,8 +69,32 @@
     {
       "id": "impact-page",
       "description": "The Enactus Hansraj team posing for a group photo on steps.",
-      "imageUrl": "https://images.unsplash.com/photo-1760864843411-3d30bd4e6adb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074",
+      "imageUrl": "https://storage.googleapis.com/devo-st-studio-8a3c-assets/enactus-team-photo.jpg",
       "imageHint": "team photo"
+    },
+    {
+      "id": "shop-lush",
+      "description": "A bottle of Lush hand wash.",
+      "imageUrl": "https://images.unsplash.com/photo-1584516151147-db2f44016cc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFuZCUyMHdhc2h8ZW58MHx8fHwxNzcwMzk2MjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hand wash"
+    },
+    {
+      "id": "shop-blume",
+      "description": "A bottle of Blume dish wash.",
+      "imageUrl": "https://images.unsplash.com/photo-1642505172094-58cb75529eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkaXNoJTIwd2FzaHxlbnwwfHx8fDE3NzAzOTYyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dish wash"
+    },
+    {
+      "id": "shop-swish",
+      "description": "A bottle of Swish floor cleaner.",
+      "imageUrl": "https://images.unsplash.com/photo-1765970101654-337b573142fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmbG9vciUyMGNsZWFuZXJ8ZW58MHx8fHwxNzcwMzk2MjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "floor cleaner"
+    },
+    {
+      "id": "shop-eco-flush",
+      "description": "A bottle of Eco Flush toilet cleaner.",
+      "imageUrl": "https://images.unsplash.com/photo-1604364234787-e5b5d9188a29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0b2lsZXQlMjBjbGVhbmVyfGVufDB8fHx8MTc3MDM5NjIwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "toilet cleaner"
     }
   ]
 }
