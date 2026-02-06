@@ -137,7 +137,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center gap-2">
-          <Image src="https://storage.googleapis.com/devo-st-studio-8a3c-assets/enactus-logo.png" alt="Enactus Hansraj Logo" width={140} height={40} className="h-10 w-auto"/>
+          <Image src="https://images.unsplash.com/photo-1762105069666-1f8ca2dd815a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880" alt="Enactus Hansraj Logo" width={140} height={40} className="h-10 w-auto"/>
         </Link>
         
         {/* Desktop Navigation */}
