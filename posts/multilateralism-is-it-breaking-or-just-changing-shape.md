@@ -1,7 +1,7 @@
 ---
 title: "Multilateralism: Is It Breaking or Just Changing Shape?"
 date: 2026-04-25
-author: "Arvyavardhan S Somvanshi and Baani Kaur"
+author: "Arvyavardhan S Somvanshi, Baani Kaur and Tanshi Wadhva"
 co_author: "Tanshi Wadhva"
 ---
 
