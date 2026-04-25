@@ -1,10 +1,8 @@
 ---
-
-**title:**Multilateralism: Is It Breaking or Just Changing Shape?
-**Date:** 2026-04-25  
-**Author:** Aryavardhan S Somvanshi and Baani Kaur  
-**Co-author:** Kartikey  
-
+title: "Multilateralism: Is It Breaking or Just Changing Shape"
+date: '2026-04-25'
+author: 'Aryavardhan S Somvanshi and Baani Kaur'
+co-author: 'Kartikey'
 ---
 
 If you remove all the complicated terminology, **multilateralism** is a simple idea. It is about countries coming together to solve problems using shared rules. That is why organizations like the UN, the WTO, and agreements like the Paris Climate agreement exist. For a long time, this system seemed like the only way to address global issues. But right now, it feels unstable.
