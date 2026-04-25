@@ -1,5 +1,6 @@
-## Multilateralism: Is It Breaking or Just Changing Shape?
+---
 
+**title:**Multilateralism: Is It Breaking or Just Changing Shape?
 **Date:** 2026-04-25  
 **Author:** Aryavardhan S Somvanshi and Baani Kaur  
 **Co-author:** Kartikey  
