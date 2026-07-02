@@ -31,7 +31,10 @@ const impactStats = [
 ];
 
 export default function ImpactPage() {
-    const impactImage = PlaceHolderImages.find((img) => img.id === 'impact-page');
+    const impactImage = PlaceHolderImages.find((img) => img.id === 'hero-main');
+    const impactImageUrl = impactImage?.imageUrl.includes('images.unsplash.com')
+      ? `${impactImage.imageUrl}&crop=faces`
+      : impactImage?.imageUrl;
 
   return (
     <div className="bg-background">
@@ -46,15 +49,17 @@ export default function ImpactPage() {
         </div>
         
         {impactImage && (
-            <div className="my-12 relative h-96 w-full overflow-hidden rounded-lg shadow-xl">
-              <Image
-                src={impactImage.imageUrl}
-                alt={impactImage.description}
-                data-ai-hint={impactImage.imageHint}
-                fill
-                className="object-cover"
-              />
-               <div className="absolute inset-0 bg-black/30" />
+            <div className="my-12 mx-auto w-full max-w-4xl overflow-hidden rounded-lg shadow-xl">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
+                <Image
+                  src={impactImageUrl ?? impactImage.imageUrl}
+                  alt={impactImage.description}
+                  data-ai-hint={impactImage.imageHint}
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-black/30" />
+              </div>
             </div>
           )}
 

@@ -26,11 +26,16 @@ export default function TeamPage() {
             const memberImage = PlaceHolderImages.find(
               (img) => img.id === member.imageId
             );
+            const positionClass = member.imageId === 'team-1'
+              ? 'object-[center_16%]'
+              : member.imageId === 'team-3'
+              ? 'object-[center_37%]'
+              : 'object-center';
             return (
               <Card key={member.name} className="text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
                 <CardHeader className="items-center">
                   <Avatar className="h-24 w-24 border-4 border-accent">
-                    {memberImage && <AvatarImage src={memberImage.imageUrl} alt={member.name} data-ai-hint={memberImage.imageHint} />}
+                    {memberImage && <AvatarImage src={memberImage.imageUrl} alt={member.name} data-ai-hint={memberImage.imageHint} className={positionClass} />}
                     <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
                   </Avatar>
                 </CardHeader>
