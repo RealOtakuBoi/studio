@@ -42,13 +42,13 @@ export default function ShopPage() {
                 className="flex flex-col overflow-hidden transition-shadow duration-300 hover:shadow-xl"
               >
                 {productImage && (
-                  <div className="relative h-56 w-full">
+                  <div className="relative aspect-[4/3] w-full overflow-hidden bg-background flex items-center justify-center">
                     <Image
                       src={productImage.imageUrl}
                       alt={productImage.description}
                       data-ai-hint={productImage.imageHint}
                       fill
-                      className="object-cover"
+                      className="object-contain"
                     />
                   </div>
                 )}
