@@ -37,13 +37,13 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
           {/* Left Column (Image) */}
           <div className="lg:col-span-3">
             {projectImage && (
-              <div className="relative h-[25rem] w-full overflow-hidden rounded-lg shadow-xl">
+              <div className="relative h-[25rem] w-full overflow-hidden rounded-lg shadow-xl bg-background">
                 <Image
                   src={projectImage.imageUrl}
                   alt={projectImage.description}
                   data-ai-hint={projectImage.imageHint}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
             )}

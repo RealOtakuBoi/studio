@@ -90,13 +90,13 @@ export default function Home() {
                   className="overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl"
                 >
                   {projectImage && (
-                    <div className="relative h-48 w-full">
+                    <div className="relative h-48 w-full overflow-hidden bg-background">
                       <Image
                         src={projectImage.imageUrl}
                         alt={projectImage.description}
                         data-ai-hint={projectImage.imageHint}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                       />
                     </div>
                   )}
