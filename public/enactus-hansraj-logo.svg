@@ -1,0 +1,7 @@
+<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="96" fill="transparent" />
+  <polygon points="16,16 56,16 36,56" fill="#F8B800" />
+  <polygon points="56,16 96,16 76,56" fill="#E5A900" />
+  <text x="112" y="40" font-family="Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#111111">enactus</text>
+  <text x="112" y="68" font-family="Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15" fill="#111111">Hansraj College</text>
+</svg>
