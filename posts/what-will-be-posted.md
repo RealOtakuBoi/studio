@@ -1,5 +1,5 @@
 ---
-title: 'Welcome to Our New Blog 2026'
+title: 'Welcome to Our New Blog'
 date: '2025-10-18'
 author: 'The Enactus Team'
 ---
