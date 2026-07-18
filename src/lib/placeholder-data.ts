@@ -49,11 +49,12 @@ export const projects = [
 ];
 
 export const teamMembers = [
-  { name: 'KKaatyanShive Bajaj Singh', role: 'President', imageId: 'team-1' },
-  { name: 'Priyam', role: 'Chief Director of Research', imageId: 'team-2' },
-  { name: 'Prachi Khola', role: 'Chief Director of Projects', imageId: 'team-3' },
-  { name: 'Ksheerja Arora', role: 'Chief Director of Projects', imageId: 'team-4' },
-  { name: 'Manya Singhal', role: 'Chief Director of Outreach', imageId: 'team-5' },
+  { name: 'Tanishka Kansal', role: 'Co-President', imageId: 'team-1' },
+  { name: 'Ayush Singh', role: 'Co-President', imageId: 'team-2' },
+  { name: 'Soham', role: 'Vice President', imageId: 'team-3' },
+  { name: 'Manvi Jha', role: 'General Secretary', imageId: 'team-4' },
+  { name: 'Drishty Rai', role: 'Joint Secretary', imageId: 'team-5' },
+  { name: 'Shagun', role: 'Joint Secretary', imageId: 'team-6' },
 ];
 
 export const aboutContent = {
