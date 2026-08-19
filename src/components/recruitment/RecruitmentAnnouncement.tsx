@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import {
   Dialog,
@@ -10,11 +10,26 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
+const recruitmentAnnouncementKey = 'enactus-recruitment-2026-seen';
+
 export function RecruitmentAnnouncement() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (window.localStorage.getItem(recruitmentAnnouncementKey) !== 'true') {
+      setIsOpen(true);
+    }
+  }, []);
+
+  const handleOpenChange = (open: boolean) => {
+    setIsOpen(open);
+    if (!open) {
+      window.localStorage.setItem(recruitmentAnnouncementKey, 'true');
+    }
+  };
 
   return (
-    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+    <Dialog open={isOpen} onOpenChange={handleOpenChange}>
       <DialogContent className="h-[90vh] w-[min(92vw,700px)] max-w-none border-0 bg-transparent p-0 shadow-none [&>button]:z-10 [&>button]:rounded-full [&>button]:bg-background/85 [&>button]:p-1">
         <DialogTitle className="sr-only">Enactus Hansraj Recruitment 2026</DialogTitle>
         <DialogDescription className="sr-only">
@@ -22,7 +37,7 @@ export function RecruitmentAnnouncement() {
         </DialogDescription>
         <div className="relative h-[90vh] w-[min(92vw,700px)]">
           <Image
-            src="/recruitment/ada.webp"
+            src="/recruitment/recruitment-2026.png"
             alt="Enactus Hansraj Recruitment 2026 poster"
             fill
             priority
