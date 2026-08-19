@@ -22,7 +22,7 @@ export function RecruitmentAnnouncement() {
         </DialogDescription>
         <div className="relative h-[90vh] w-[min(92vw,700px)]">
           <Image
-            src="/recruitment/recruitment-2026.png"
+            src="/recruitment/ada.webp"
             alt="Enactus Hansraj Recruitment 2026 poster"
             fill
             priority

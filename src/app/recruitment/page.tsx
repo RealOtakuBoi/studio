@@ -31,7 +31,7 @@ export default function RecruitmentPage() {
       <section className="px-4 py-10 sm:px-6 lg:py-14">
         <div className="mx-auto max-w-2xl">
           <Image
-            src="/recruitment/ada.png"
+            src="/recruitment/ada.webp"
             alt="Enactus Hansraj Recruitment 2026 recruitment poster"
             width={1485}
             height={1856}
