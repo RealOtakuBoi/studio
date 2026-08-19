@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import { Menu, ChevronDown, X } from 'lucide-react';
+import { Menu, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 
 import { Button } from '@/components/ui/button';
@@ -161,13 +161,9 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
-               <div className="flex items-center justify-between px-2">
+               <div className="px-2">
                 <Link href="/" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2">
                 </Link>
-                <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)}>
-                    <X className="h-6 w-6"/>
-                    <span className="sr-only">Close menu</span>
-                </Button>
                </div>
               <div className="mt-6 flex flex-col gap-2">
                 {navLinks.map((link) => (
