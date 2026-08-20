@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import {
   Dialog,
@@ -10,22 +10,11 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
-const recruitmentAnnouncementKey = 'enactus-recruitment-2026-seen';
-
 export function RecruitmentAnnouncement() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    if (window.localStorage.getItem(recruitmentAnnouncementKey) !== 'true') {
-      setIsOpen(true);
-    }
-  }, []);
+  const [isOpen, setIsOpen] = useState(true);
 
   const handleOpenChange = (open: boolean) => {
     setIsOpen(open);
-    if (!open) {
-      window.localStorage.setItem(recruitmentAnnouncementKey, 'true');
-    }
   };
 
   return (
