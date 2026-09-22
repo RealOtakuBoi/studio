@@ -22,7 +22,6 @@ const navLinks = [
   { href: '/about', label: 'About' },
   { href: '/team', label: 'Team' },
   { href: '/impact', label: 'Impact' },
-  { href: '/recruitment', label: 'Recruitment 2026' },
   { href: '/blog', label: 'Blog' },
   { href: '/shop', label: 'Shop'},
   { href: '/contact', label: 'Contact' },

@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { RecruitmentAnnouncement } from '@/components/recruitment/RecruitmentAnnouncement';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
 
@@ -30,7 +29,6 @@ export default function RootLayout({
           <main className="flex-grow animate-in fade-in duration-500">{children}</main>
           <Footer />
         </div>
-        <RecruitmentAnnouncement />
         <Toaster />
       </body>
     </html>
