@@ -14,6 +14,12 @@ export type PostData = {
   [key: string]: any;
 };
 
+function getComparableDate(dateValue: unknown): number {
+  const date = dateValue instanceof Date ? dateValue : new Date(String(dateValue ?? ''));
+  const time = date.getTime();
+  return Number.isNaN(time) ? 0 : time;
+}
+
 export function getSortedPostsData(): PostData[] {
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames.map((fileName) => {
@@ -29,11 +35,7 @@ export function getSortedPostsData(): PostData[] {
   });
 
   return allPostsData.sort((a, b) => {
-    if (a.date < b.date) {
-      return 1;
-    } else {
-      return -1;
-    }
+    return getComparableDate(b.date) - getComparableDate(a.date);
   });
 }
 

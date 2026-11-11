@@ -94,6 +94,9 @@ body {
   .prose p, .prose ul, .prose ol, .prose blockquote {
     @apply text-muted-foreground;
   }
+  .prose p {
+    @apply my-6 leading-8;
+  }
   .prose a {
     @apply text-accent hover:text-accent/80;
   }
