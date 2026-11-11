@@ -8,21 +8,21 @@
     },
     {
       "id": "project-ahsaas",
-      "description": "Hands holding a young plant, symbolizing growth and care.",
-      "imageUrl": "https://images.unsplash.com/photo-1760866791289-ee625dd8005f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880",
-      "imageHint": "hands plant"
+      "description": "Project Ahsaas logo.",
+      "imageUrl": "/projects%20logo/Project%20Ahsaas_Hansraj.webp",
+      "imageHint": "Project Ahsaas logo"
     },
     {
       "id": "project-mehr",
-      "description": "Artisan crafts being displayed at a local market.",
-      "imageUrl": "https://images.unsplash.com/photo-1760866791323-9186b7e6654e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880",
-      "imageHint": "artisan crafts"
+      "description": "Project Mehr logo.",
+      "imageUrl": "/projects%20logo/Project%20Mehr_Hansraj.webp",
+      "imageHint": "Project Mehr logo"
     },
     {
       "id": "project-nirmal",
-      "description": "Clean water flowing from a tap into cupped hands.",
-      "imageUrl": "https://images.unsplash.com/photo-1760866791283-1c12c76a740f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880",
-      "imageHint": "clean water"
+      "description": "Project Nirmal logo.",
+      "imageUrl": "/projects%20logo/Project%20Nirmal_Hansraj.webp",
+      "imageHint": "Project Nirmal logo"
     },
     {
       "id": "about-us-team",
@@ -33,37 +33,37 @@
     {
       "id": "team-1",
       "description": "Profile picture of Tanishka Kansal",
-      "imageUrl": "/Team Member Photo/Tanishka Kansal.png",
+      "imageUrl": "/Team%20Member%20Photo/Tanishka%20Kansal.webp",
       "imageHint": "Tanishka Kansal portrait"
     },
     {
       "id": "team-2",
       "description": "Profile picture of Ayush Singh",
-      "imageUrl": "/Team Member Photo/Ayush (1).png",
+      "imageUrl": "/Team%20Member%20Photo/Ayush%20%281%29.webp",
       "imageHint": "Ayush Singh portrait"
     },
     {
       "id": "team-3",
       "description": "Profile picture of Soham",
-      "imageUrl": "/Team Member Photo/Soham (1).png",
+      "imageUrl": "/Team%20Member%20Photo/Soham%20%281%29.webp",
       "imageHint": "Soham portrait"
     },
     {
       "id": "team-4",
       "description": "Profile picture of Manvi Jha",
-      "imageUrl": "/Team Member Photo/Manvi Jha (1).png",
+      "imageUrl": "/Team%20Member%20Photo/Manvi%20Jha%20%281%29.webp",
       "imageHint": "Manvi Jha portrait"
     },
     {
       "id": "team-5",
       "description": "Profile picture of Drishty Rai",
-      "imageUrl": "/Team Member Photo/Drishty Rai (1).png",
+      "imageUrl": "/Team%20Member%20Photo/Drishty%20Rai%20%281%29.webp",
       "imageHint": "Drishty Rai portrait"
     },
     {
       "id": "team-6",
       "description": "Profile picture of Shagun",
-      "imageUrl": "/Team Member Photo/Shagun (1).png",
+      "imageUrl": "/Team%20Member%20Photo/Shagun%20%281%29.webp",
       "imageHint": "Shagun portrait"
     },
     {

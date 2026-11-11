@@ -96,7 +96,13 @@ export default function Home() {
                         alt={projectImage.description}
                         data-ai-hint={projectImage.imageHint}
                         fill
-                        className="object-contain"
+                        className={
+                          project.slug === 'ahsaas'
+                            ? 'object-contain p-4'
+                            : project.slug === 'nirmal'
+                              ? 'object-contain scale-[0.6]'
+                              : 'object-contain'
+                        }
                       />
                     </div>
                   )}
