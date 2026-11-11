@@ -1,8 +1,8 @@
 ---
 title: "What Happens when Enactus Sits Down to Listen"
 date: 2026-11-11
-author: "By Shriya Sharma, Mehak"
-co_author: "Swasti Singhal"
+author: "By Shriya Sharma, Mehak & Swasti Singhal"
+co_author: ""
 slug: "what-happens-when-enactus-sits-down-to-listen"
 status: draft
 draft: true
